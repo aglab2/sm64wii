@@ -1,0 +1,36 @@
+currentLevelScriptCmd = 0x8038BE28;
+DmaCopy = 0x80278504;
+DynamicIndexCopy = 0x8027868C;
+MIO0Unpack = 0x8027F4E0;
+SegmentedToVirtual = 0x80277F50;
+SetSegment = 0x80277EE0;
+GetSegment = 0x80277F20;
+cmd1B = 0x8037EE48;
+cmd1C = 0x8037EEA8;
+
+EXTERN(ExtCmd17 ExtCmd1B ExtCmd1C loadarea)
+
+SECTIONS 
+{
+  .sm64 0x80402000 : 
+  {
+    *(.text.cmd17)
+    *(.text.*)
+    *(.data)
+    *(.data.*)
+    *(.bss)
+    *(.bss.*)
+    *(.rodata)
+    *(.rodata.*)
+  }
+  
+  /DISCARD/ :
+  {
+	*(.MIPS.abiflags)
+	*(.gnu.attributes)
+	*(.mdebug.abi32)
+	*(.comment)
+	*(.pdr)
+	*(.reginfo)
+  }
+}
