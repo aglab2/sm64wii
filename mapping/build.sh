@@ -1,5 +1,11 @@
-powerpc-eabi-as.exe mapping2.asm -o mapping.o
+powerpc-eabi-as.exe mapping3.asm -o mapping.o
 powerpc-eabi-objcopy.exe -O binary mapping.o mapping
 
-powerpc-eabi-as.exe hoo.asm -o hoo.o
-powerpc-eabi-objcopy.exe -O binary hoo.o hoo
+powerpc-eabi-as.exe hook.asm -o hook.o
+powerpc-eabi-objcopy.exe -O binary hook.o hook
+
+powerpc-eabi-as.exe framewalk.asm -o framewalk.o
+powerpc-eabi-objcopy.exe -O binary framewalk.o framewalk
+
+powerpc-eabi-as.exe map_framewalk2.asm -o map_framewalk.o
+powerpc-eabi-objcopy.exe -O binary map_framewalk.o map_framewalk
