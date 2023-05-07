@@ -436,7 +436,7 @@ namespace sm64wiikit
                     if (romSize.Length == 1)
                         romSize = "0" + romSize;
 
-                    patchLines += string.Format(Resources.rom_size_tmpl, textBoxROMSize.Text);
+                    patchLines += string.Format(Resources.rom_size_tmpl, romSize);
                 }
                 patchLines += "\n";
                 File.WriteAllText(patchPath, patchLines);

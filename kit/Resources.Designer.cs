@@ -19,7 +19,7 @@ namespace sm64wiikit {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
@@ -104,13 +104,13 @@ namespace sm64wiikit {
         ///0304 0005DC54 60000000
         ///
         ///# The
+        ///0304 00000FF8 3FF00000
+        ///0304 00000FFC 00000000
+        ///0304 00001020 00000000
+        ///0304 00001024 00000000
+        ///0304 00001028 9421ff98
         ///0304 00001028 9421ff98
         ///0304 0000102c d8810060
-        ///0304 00001030 d8a10058
-        ///0304 00001034 d8c10050
-        ///0304 00001038 d8e10048
-        ///0304 0000103c d9010040
-        ///0304 00001040 d9210038
         ///0304 00001 [rest of string was truncated]&quot;;.
         /// </summary>
         public static string control_stick_mapping_on {
@@ -180,14 +180,14 @@ namespace sm64wiikit {
         ///0304 0005DC54 60000000
         ///
         ///# The
+        ///0304 00000FF8 3FF00000
+        ///0304 00000FFC 00000000
+        ///0304 00001020 00000000
+        ///0304 00001024 00000000
         ///0304 00001028 9421fff8
         ///0304 0000102c 90610000
         ///0304 00001030 90810004
-        ///0304 00001034 3c608000
-        ///0304 00001038 3c80809f
-        ///0304 0000103c 888438b8
-        ///0304 00001040 70840008
-        ///0304 00001044 2c [rest of string was truncated]&quot;;.
+        ///0304 00001034 3c [rest of string was truncated]&quot;;.
         /// </summary>
         public static string framewalk_stick_mapping_off {
             get {
@@ -214,13 +214,13 @@ namespace sm64wiikit {
         ///0304 0005DC54 60000000
         ///
         ///# The
+        ///0304 00000FF8 3FF00000
+        ///0304 00000FFC 00000000
+        ///0304 00001020 00000000
+        ///0304 00001024 00000000
         ///0304 00001028 3ff00000
         ///0304 0000102c 00000000
         ///0304 00001030 405a4000
-        ///0304 00001034 00000000
-        ///0304 00001038 400318c6
-        ///0304 0000103c 318c43e3
-        ///0304 00001040 40540000
         ///0304 00001 [rest of string was truncated]&quot;;.
         /// </summary>
         public static string framewalk_stick_mapping_on {
